@@ -1,3 +1,11 @@
+// Install the required modules with the following command:
+// npm install bionode dat tool-stream JSONStream
+// The run the script with:
+// node bionode-ncbi-simple.js
+// Try commenting/removing some of the examples below to
+// see more easily what each one does, otherwise they
+// will all run simultaneously and output to the console.
+
 var bio = require('bionode')
 var dat = require('dat')
 var tool = require('tool-stream')
