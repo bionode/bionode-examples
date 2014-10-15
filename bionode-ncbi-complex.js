@@ -1,3 +1,6 @@
+// Install the required modules first with:
+// npm install bionode dat tool-stream async JSONStream through2
+// Then run it with:
 var bio        = require('bionode')
 var dat        = require('dat')
 var tool       = require('tool-stream')
