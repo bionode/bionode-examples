@@ -2,10 +2,10 @@
 // npm install bionode dat tool-stream async JSONStream through2
 // Then run it with (it will take a few seconds to finish):
 // node bionode-ncbi-complex.js
-// The you can try to go in one of the data folders and
+// Then you can try to go in one of the data folders and
 // start Dat's web editor to look at the data:
 // cd dats/papers && dat listen
-// Open browser at localhost:6461
+// and open a browser at localhost:6461
 
 var bio        = require('bionode')
 var dat        = require('dat')
