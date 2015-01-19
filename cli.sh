@@ -17,11 +17,14 @@ bionode-ncbi download assembly Guillardia theta
 # bionode-fasta (with dash) would also fail because we didn't install bionode-fasta.
 
 
-# Get url of Guillardia theta assembly
-bionode ncbi urls assembly Guillardia theta | tool-stream extractProperty protein.faa
-
 # See all NCBI urls for Guillardia theta assembly datasets
 bionode ncbi urls assembly Guillardia theta | json
+
+# Get url of Guillardia theta assembly
+bionode ncbi urls assembly  | tool-stream extractProperty protein.faa
+
+# Download Guillardia theta assembly
+bionode ncbi download assembly protein.faa Guillardia theta
 
 # See all NCBI urls for Guillardia theta Sequence Read Archive (SRA) datasets
 bionode ncbi urls sra Guillardia theta
